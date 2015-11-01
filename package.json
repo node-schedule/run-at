@@ -1,8 +1,8 @@
 {
   "name": "run-at",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "execute function 'at' a certain time",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "rm -r dist/; babel -d dist/ src/",
     "prepublish": "npm run compile"
