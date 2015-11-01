@@ -1,6 +1,6 @@
 {
   "name": "run-at",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "execute function 'at' a certain time",
   "main": "index.js",
   "scripts": {
