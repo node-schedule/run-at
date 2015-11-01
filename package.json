@@ -1,0 +1,33 @@
+{
+  "name": "run-at",
+  "version": "1.0.0",
+  "description": "execute function 'at' a certain time",
+  "main": "index.js",
+  "scripts": {
+    "compile": "rm -r dist/; babel -d dist/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasmanohar/at.js.git"
+  },
+  "keywords": [
+    "schedule",
+    "when",
+    "at",
+    "job",
+    "timer"
+  ],
+  "author": "Tejas Manohar <me@tejas.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tejasmanohar/at.js/issues"
+  },
+  "homepage": "https://github.com/tejasmanohar/at.js#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "dependencies": {
+    "date.js": "^0.2.0"
+  }
+}
