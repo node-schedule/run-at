@@ -1,5 +1,5 @@
 
-# at.js
+# run-at
 
 [![NPM](https://nodei.co/npm/run-at.png?downloads=true)](https://nodei.co/npm/run-at/)
 
