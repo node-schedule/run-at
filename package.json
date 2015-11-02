@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/node-schedule/run-at.js.git"
+    "url": "git+https://github.com/node-schedule/run-at.git"
   },
   "keywords": [
     "schedule",
