@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tejasmanohar/at.js.git"
+    "url": "git+https://github.com/node-schedule/run-at.js.git"
   },
   "keywords": [
     "schedule",
@@ -21,9 +21,9 @@
   "author": "Tejas Manohar <me@tejas.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tejasmanohar/at.js/issues"
+    "url": "https://github.com/node-schedule/run-at/issues"
   },
-  "homepage": "https://github.com/tejasmanohar/at.js#readme",
+  "homepage": "https://github.com/node-schedule/run-at#readme",
   "devDependencies": {
     "babel": "^5.8.23"
   },
