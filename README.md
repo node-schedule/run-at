@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/run-at.png?downloads=true)](https://nodei.co/npm/run-at/)
 
-execute function "at" a certain time.
+execute function "at" a certain time. merely a human-readable setTimeout wrapper.
 
 uses [date] for human-friendly date parsing.
 
