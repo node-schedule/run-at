@@ -8,13 +8,15 @@ import date from 'date.js'
 /**
  * Expose and Initialize `at`
  *
- * @param {String} str
+ * @param {string|Date} when
  * @param {Function} fn
  * @api public
  */
 
-export default function(str, fn) {
-  const offset = date(str) - new Date
-  if (!offset) throw `did not recognize '${str}'`
+export default function(when, fn) {
+  const triggerDate = typeof when === 'string' ? date(when) : when
+  const offset = triggerDate - new Date
+
+  if (!offset) throw `did not recognize '${when}'`
   return setTimeout(fn, offset)
 }
