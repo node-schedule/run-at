@@ -28,6 +28,6 @@
     "babel": "^5.8.23"
   },
   "dependencies": {
-    "date.js": "^0.2.0"
+    "date.js": "^0.3.3"
   }
 }
